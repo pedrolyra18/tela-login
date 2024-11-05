@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Login</h2>
+        <div class="input-field">
+          <label for="login">Email:</label>
+          <input type="email" id="login">
+          <span id="loginError" class="error-message"></span>
+        </div>
+        <div class="input-field">
+          <label for="senha">Senha:</label>
+          <input type="password" id="senha">
+          <span id="senhaError" class="error-message"></span>
+        </div>
+        <button onclick="verificarLogin()">Entrar</button>
+      </div>
+</body>
+</html>
